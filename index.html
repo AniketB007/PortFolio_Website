@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/82236ae23b.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img class="logo" src="Ab1.png" alt="">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p class="hello">Hello There !</p>
+                <h1>I'm <span>Aniket</span> Bourasee</h1>
+                <p class="web">I'm a Full Stack Developer</p>
+
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- -----------------------------------------About------------------------------------------------------------------------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="br.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub">About Me</h1>
+                    <p class="para">I am Aniket Bourasee from Nagpur,Maharastra . I completed my Graduation in
+                        Electronics and Telecommunications Engineering in 2022 . I am a Full Stack Java Developer . I have a
+                        good knowledge of Frontend and Backend techniques and still exploring other technologies and Frameworks that
+                        catch my interest ! I love combining the worlds of logic and creative design to make
+                        eye-catching,accessible and user-friendly website. I am a person who is possitive in every
+                        aspect of life .</p>
+
+                    <div class="tab-tittles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('internship')">Internship</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Languages</span><br><br><span id="prog">C (Intermediate), Core Java
+                                    (Intermediate)</span></li><br>
+                            <li><span>Frontend Development</span><br><br><span id="prog">HTML5 (Intermediate),
+                                    CSS3 (Intermediate),JavaScript (Beginner),Bootstrap 5 </span></li><br>
+                            <li><span>Database</span><br><br><span id="prog">SQL (Intermediate)</span></li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="internship">
+                        <ul>
+                            <li><span>Full Stack Java Developer (Sept 2022- Present)</span><br><br><span
+                                    id="prog">Eduladdr Solutions</span></li><br>
+                            <li><span>IOT Project (June 2021-July 2021)</span><br><br><span id="prog">IOT Project
+                                    Development using Industry Grade Microcontroller.</span></li><br>
+                            <li><span>Intershala (2020)</span><br><br><span id="prog">Intershala Student Partner(Campus
+                                    Ambassador)</span></li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Bachelor's of Engineering from RTMNU (2018-2022)</span><br><br><span
+                                    id="prog">Electronics and Telecommunications Engineering (8.86 SGPA)</span></li><br>
+                            <li><span>HSC Exam from Maharastra Board (2018)</span><br><br><span id="prog">Science
+                                    (60.9%)</span></li><br>
+                            <li><span>SSC Exam from Maharastra Board (2016)</span><br><br><span id="prog">General
+                                    (71%)</span></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------------------------------------------------------Services------------------------------------------------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub">My Projects</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Project-1</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil dolores possimus dolorem atque hic
+                        necessitatibus eveniet, maxime iure ipsa, totam reiciendis minima ex repudiandae magnam vel
+                        fugit officia. Vero, perferendis?</p>
+                    <a href="#">Learn more...</a>
+                </div>
+                <div>
+
+                    <i class="fa-sharp fa-solid fa-code"></i>
+                    <h2>Project-2</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil dolores possimus dolorem atque hic
+                        necessitatibus eveniet, maxime iure ipsa, totam reiciendis minima ex repudiandae magnam vel
+                        fugit officia. Vero, perferendis?</p>
+                    <a href="#">Learn more...</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-cloud"></i>
+                    <h2>Project-3</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil dolores possimus dolorem atque hic
+                        necessitatibus eveniet, maxime iure ipsa, totam reiciendis minima ex repudiandae magnam vel
+                        fugit officia. Vero, perferendis?</p>
+                    <a href="#">Learn more...</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- -----------------------------------------------Portfolio----------------------------------------------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>This app connects you to the talented people around the world. Download it from play store
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.png">
+                    <div class="layer">
+                        <h3>Online Music App</h3>
+                        <p>This app connects you to the talented people around the world. Download it from play store
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.png">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>This app connects you to the talented people around the world. Download it from play store
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+
+    <!-- ------------------------------------------------------Contact Form------------------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub">Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-envelope"></i> aniketbourasee007.jit@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> +91-9112319964</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/aniket-bourasee-60498718b" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://t.me/AniB007" target="_blank"><i class="fa-solid fa-paper-plane"></i></a>
+                        <a href="https://www.instagram.com/aniket_bourasee/" target="_blank"><i
+                                class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.facebook.com/aniket.b.94" target="_blank"><i
+                                class="fa-brands fa-square-facebook"></i></a>
+
+                    </div>
+                    <a href="ANIKETB9112319964.pdf" target="_blank" download="" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" placeholder="Your Message" rows="6"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Made by AniketB <i class="fa-solid fa-circle-user"></i> </p>
+        </div>
+    </div>
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        } 
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu")
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwdbUkQcUoFRxxXjIILY7KaCFRcpftDdgTjUNi5eEZ8FP6LPnXSDo-gLf_pJGJhqTY8/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent Successfully "
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+</body>
+
+</html>
